@@ -5,7 +5,7 @@ import { ContainerGRID } from "../containerGRID";
 export function Header(){
     return(
         <header className="flex items-center bg-white h-20 shadow-sm">
-           <ContainerGRID>
+           <ContainerGRID className="flex items-center justify-between">
                 <Link href="/" className="font-bold text-2xl uppercase transition-all ease-linear [&:hover,&:focus]:tracking-widest">
                   <span className="text-blue-500">Dev </span>
                     Controle
