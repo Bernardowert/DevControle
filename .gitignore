@@ -13,6 +13,9 @@
 # testing
 /coverage
 
+#Prisma
+/src/generated/prisma​
+
 # next.js
 /.next/
 /out/
